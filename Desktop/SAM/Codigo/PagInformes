@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAM</title>
+    <link rel="stylesheet" href="PagInformes.css">
+    <link rel="stylesheet" href="outputt.css">
+    <link rel="shortcut icon" href="../img-prin/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    
+</head>
+<body>
+            
+    
+   
+
+    <header class="flex flex-col block">
+    <nav class="navigation">
+		<ul class="menu-horizontal">
+			
+            <li><img class="logo" src="../img-prin/logo.png" alt="" id="fondo"></li>
+            <li><a href="#" class="lg:hover:bg-amber-400 transition duration-500 ease-in-out hover:text-white font-medium text-lg lg:mr-7 ">Inicio</a></li>
+			<li><a href="#" class="lg:hover:bg-amber-400 transition duration-500 ease-in-out hover:text-white font-medium text-lg lg:mr-7 ">Adopciones</a></li>
+            <li><a href="#" class="lg:hover:bg-amber-400 transition duration-500 ease-in-out hover:text-white font-medium text-lg lg:mr-7 ">Donaciones</a></li>
+			<li>
+				<a href="#" class="text-white hover:text-gray-300">Informes<i class="ri-arrow-down-s-line"></i></a>
+                
+				<ul class="menu-vertical">
+					<li><a href="#" class="text-white hover:text-gray-300">Adoptadas</a></li>
+					<li><a href="#"class="text-white hover:text-gray-300">Donadas</a></li>
+                    <li><a href="#">Favoritos</a></li>
+				</ul>
+			</li>
+			
+            <li><i class="ri-search-line nav_buscar" id="buscar_btn"></i></li>
+            <li><i class="ri-user-line nav_login" id="login_btn"></i></li>
+		</ul>
+	</nav>
+    </header>
+    
+    <div class="contenedor-externo">
+        <div class="interno1">
+            <img src="../img-prin/gato2.png" alt="" class="imagen">
+        </div>
+        <div class="interno2">
+            <h3><strong>    Descripcion </strong></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eveniet consectetur labore atque maxime vitae quae dolor possimus voluptatibus. Assumenda ad enim iusto facere aliquam voluptatem similique praesentium! Doloribus, facere.</p>
+        </div>
+        <div class="interno3">
+            <a href="#" class="input">Ver perfil</a>
+            <a href="#" class="input">Estado: <br>No disponible</a>
+        </div>
+    </div>
+    <div class="contenedor-externo">
+        <div class="interno1">
+            <img src="../img-prin/perro2.png" alt="" class="imagen">
+        </div>
+        <div class="interno2">
+            <h3><strong>Descripcion</strong></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eveniet consectetur labore atque maxime vitae quae dolor possimus voluptatibus. Assumenda ad enim iusto facere aliquam voluptatem similique praesentium! Doloribus, facere.</p>
+        </div>
+        <div class="interno3">
+            <a href="#" class="input">Ver perfil</a>
+            <a href="#" class="input">Estado: <br> Disponible</a>
+        </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+
+
+</div>  
+</div>
+<div class="lg:h-screen bg-gray-100 lg:flex items-center justify-center gap-10 pl-20 lg:pl-0 mb-8 mt-8 md:grid md:grid-cols-2">
+    <div class="bg-amber-400 text-white w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden mb-8 lg:mb-0">
+        <img src="../img-prin/un-perro-de-raza-labrador.jpeg" class="w-full h-full objects-cover" alt="">
+        <div class="p-5 flex-col gap-3">
+            <div class="flex items-center gap-2">
+                <span class="px-3 rounded-full text-xs bg-gray-100 text-sky-500">Cariñoso</span>
+                <span class="px-3 rounded-full text-xs bg-gray-100 text-sky-500">Jugueton</span>
+            </div>
+                <h2 class="font-bold text-3xl overflow-hidden whitespace-nowrap">Firulais</h2>
+                <div>
+                    <span class="text-xs font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit, nam recusandae non possimus iure saepe libero dolorum fuga nihil fugiat. Perspiciatis omnis architecto </span><br>
+                    <span class="bg-green-400 px-5 py-0.5 rounded-md text-xs text-white">Disponible</span>
+                <div class="mt-5 flex gap-2">
+                    <button class="bg-sky-500 hover:bg-sky-600 rounded-md px-6 py-2 text-white font-medium tracking-wider transition">
+                        Adoptar
+                    </button>
+                    <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded-md">
+                        <img src="../img-prin/heart-fill.png" alt="">
+                    </button>
+                    <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded-md">
+                        <img src="../img-prin/eye-fill.png" alt="">
+                    </button>
+                </div>    
+                </div>
+        </div>
+    </div>
+    <div class="bg-amber-400 text-white w-72  min-h-[10rem] shadow-lg rounded-md overflow-hidden mb-8 lg:mb-0">
+        <img src="../img-prin/ojos-gato.png" class="w-full h-full objects-cover" alt="">
+        <div class="p-5 flex-col gap-3">
+            <div class="flex items-center gap-2">
+                <span class="px-3 rounded-full text-xs bg-gray-100 text-sky-500">Gloton</span>
+                <span class="px-3 rounded-full text-xs bg-gray-100 text-sky-500">Mordelon</span>
+            </div>
+                <h2 class="font-bold text-3xl overflow-hidden whitespace-nowrap">Michi</h2>
+                <div>
+                    <span class="text-xs font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit, nam recusandae non possimus iure saepe libero dolorum fuga nihil fugiat. Perspiciatis omnis architecto </span><br>
+                    <span class="bg-green-400 px-5 py-0.5 rounded-md text-xs text-white">Disponible</span>
+                <div class="mt-5 flex gap-2">
+                    <button class="bg-sky-500 hover:bg-sky-600 rounded-md px-6 py-2 text-white font-medium tracking-wider transition">
+                        Adoptar
+                    </button>
+                    <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded-md">
+                        <img src="../img-prin/heart-fill.png" alt="">
+                    </button>
+                    <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded-md">
+                        <img src="../img-prin/eye-fill.png" alt="">
+                    </button>
+                </div>    
+                </div>
+        </div>
+    </div>
+    <div class="bg-amber-400 text-white w-72  min-h-[10rem] shadow-lg rounded-md overflow-hidden mb-8 lg:mb-0">
+        <img src="../img-prin/perro2.png" class="w-full h-full objects-cover" alt="">
+        <div class="p-5 flex-col gap-3">
+            <div class="flex items-center gap-2">
+                <span class="px-3 rounded-full text-xs bg-gray-100 text-sky-500">Mañoso</span>
+                <span class="px-3 rounded-full text-xs bg-gray-100 text-sky-500">Picha-Peluches</span>
+            </div>
+                <h2 class="font-bold text-3xl overflow-hidden whitespace-nowrap">Samuel</h2>
+                <div>
+                    <span class="text-xs font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit, nam recusandae non possimus iure saepe libero dolorum fuga nihil fugiat. Perspiciatis omnis architecto </span><br>
+                    <span class="bg-green-400 px-5 py-0.5 rounded-md text-xs text-white">Disponible</span>
+                <div class="mt-5 flex gap-2">
+                    <button class="bg-sky-500 hover:bg-sky-600 rounded-md px-6 py-2 text-white font-medium tracking-wider transition">
+                        Adoptar
+                    </button>
+                    <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded-md">
+                        <img src="../img-prin/heart-fill.png" alt="">
+                    </button>
+                    <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded-md">
+                        <img src="../img-prin/eye-fill.png" alt="">
+                    </button>
+                </div>    
+                </div>
+        </div>
+    </div>
+    <div class="bg-amber-400 text-white w-72  min-h-[10rem] shadow-lg rounded-md overflow-hidden mb-8 lg:mb-0">
+        <img src="../img-prin/gato2.png" class="w-full h-full objects-cover" alt="">
+        <div class="p-5 flex-col gap-3">
+            <div class="flex items-center gap-2">
+                <span class="px-3 rounded-full text-xs bg-gray-100 text-sky-500">Inquieto</span>
+                <span class="px-3 rounded-full text-xs bg-gray-100 text-sky-500">Amoroso</span>
+            </div>
+                <h2 class="font-bold text-3xl overflow-hidden whitespace-nowrap">Muñi</h2>
+                <div>
+                    <span class="text-xs font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta fugit, nam recusandae non possimus iure saepe libero dolorum fuga nihil fugiat. Perspiciatis omnis architecto </span><br>
+                    <span class="bg-green-400 px-5 py-0.5 rounded-md text-xs text-white">Disponible</span>
+                <div class="mt-5 flex gap-2">
+                    <button class="bg-sky-500 hover:bg-sky-600 rounded-md px-6 py-2 text-white font-medium tracking-wider transition">
+                        Adoptar
+                    </button>
+                    <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded-md">
+                        <img src="../img-prin/heart-fill.png" alt="">
+                    </button>
+                    <button class="flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded-md">
+                        <img src="../img-prin/eye-fill.png" alt="">
+                    </button>
+                </div>    
+                </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-amber-400 px-20 py-3.5 lg:h-14 flex items-center justify-center gap-10">
+    <div>
+    <h2 class="font-bold text-xs lg:text-base  text-white">© 2024 SAM. Todos los derechos reservados.</h2>
+    </div>
+    <div class="flex gap-2">
+        <i class="ri-youtube-fill text-white text-3xl"></i>
+        <i class="ri-instagram-fill text-white text-3xl"></i>
+        <i class="ri-facebook-fill text-white text-3xl"></i>
+        <i class="ri-twitter-x-line text-white text-3xl"></i>
+    </div>
+</footer>
+
+    <script>
+        
+  
+        function openMenu(){
+            let menu = document.getElementById('menu');
+            if(menu.classList.contains('hidden')){
+               menu.classList.remove('hidden');     
+            }else{
+                menu.classList.add('hidden')
+            }
+        }
+    </script>
+</body>
+</html>
